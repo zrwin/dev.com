@@ -5,9 +5,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  
+ 
 }
 .main {
   flex: 1;
+}
+
+.logo{
+  width: 200px;
 }
 
 
@@ -33,12 +39,18 @@ h1 {
   line-height: 1.2;
 }
 .card {
-  width: 45%;
+  width: 40%;
 }
 
 
 .card-title{
   display: inline;
+}
+
+.tile-image{
+  display: block;
+  margin-bottom: 8px;
+  
 }
 
 .left {
@@ -76,5 +88,20 @@ footer {
     margin-bottom: 10px;
     display: inline;
     object-fit: cover;
+  }
+  .logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .card-title{
+    display:block;
+    text-align: center;
+  }
+
+  footer{
+    
+    text-align: center;
   }
 }
